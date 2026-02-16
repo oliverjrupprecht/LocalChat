@@ -1,10 +1,19 @@
-# SecureChat
+# LocalChat
 
-A minimalist, high-performance Terminal User Interface (TUI) for interacting with local LLMs. Built with Python and powered by Textual and Ollama, this app provides a clean, markdown-rendered chat experience directly in your terminal.
+A minimalist Terminal User Interface (TUI) for interacting with local LLMs. Built with Python and powered by Textual, Ollama and Sqlite3. This app provides a clean chat experience directly in your terminal.
 
 Key Features:
-- Local-First & Secure: Your data never leaves your machine. It talks directly to your local Ollama instance.
-- Real-time Markdown Rendering: Watch as your model's response streams and formats instantly with full Markdown support. 
-- Persistent Session Logging: Automatically tracks your conversation in a temporary Markdown file for easy debugging or export. (currently in development)
-- Streaming Responses: No waiting for the full block; get tokens as they are generated for a fluid conversation. (in development)
-- Automatic Model Management: Pre-loads the model on startup and can be configured to manage memory efficiently.
+- Local-First: Your data never leaves your machine. It talks directly to your local Ollama instance.
+- Real-time Markdown Rendering: Model responses are and formatted instantly from Markdown. (Most modern models reply in Markdown format) 
+- Persistent Session Logging: Chat sessions are logged in an internal Sqlite database. Sessions can be rebooted if necessary.
+- Streaming Responses: No waiting for the full block; get tokens as they are generated for a fluid conversation. (not fully implemented)
+- Automatic Model Management: Loads model on startup and frees it from memory when leaving the application.
+
+Implementation Details:
+- The multithreaded implementation of model calls and large IO operations means that the UI remains snappy.
+
+Requirements:
+Users must have Ollama and Homebrew installed. Ollama should be running as a 'service' (daemon).
+
+Installation:
+This project is currently in development.
