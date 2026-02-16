@@ -1,4 +1,11 @@
-# LocalChat
+ /$$                                     /$$  /$$$$$$  /$$                   /$$    
+| $$                                    | $$ /$$__  $$| $$                  | $$    
+| $$        /$$$$$$   /$$$$$$$  /$$$$$$ | $$| $$  \__/| $$$$$$$   /$$$$$$  /$$$$$$  
+| $$       /$$__  $$ /$$_____/ |____  $$| $$| $$      | $$__  $$ |____  $$|_  $$_/  
+| $$      | $$  \ $$| $$        /$$$$$$$| $$| $$      | $$  \ $$  /$$$$$$$  | $$    
+| $$      | $$  | $$| $$       /$$__  $$| $$| $$    $$| $$  | $$ /$$__  $$  | $$ /$$
+| $$$$$$$$|  $$$$$$/|  $$$$$$$|  $$$$$$$| $$|  $$$$$$/| $$  | $$|  $$$$$$$  |  $$$$/
+|________/ \______/  \_______/ \_______/|__/ \______/ |__/  |__/ \_______/   \___/  
 
 A minimalist Terminal User Interface (TUI) for interacting with local LLMs. A Python application utilizing Textual for the UI, with Ollama and SQLite3 handling the backend. This app provides a clean chat experience directly in your terminal.
 
