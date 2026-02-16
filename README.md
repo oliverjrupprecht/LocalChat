@@ -26,3 +26,10 @@ A minimalist Terminal User Interface (TUI) for interacting with local LLMs. A Py
 
 **Installation:**
 - This project is currently in development.
+
+**Example Use:**
+
+<img width="1431" height="885" alt="Screenshot 2026-02-16 at 12 22 02 pm" src="https://github.com/user-attachments/assets/246137a1-6ea9-4a59-b46f-2d346df993c3" />
+
+
+
