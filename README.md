@@ -13,7 +13,7 @@ A minimalist Terminal User Interface (TUI) for interacting with local LLMs. Buil
 - The multithreaded implementation of model calls and large IO operations means that the UI remains snappy.
 
 **Requirements:**
-Users must have Ollama and Homebrew installed. Ollama should be running as a 'service' (daemon).
+Users must have Ollama and Homebrew installed. Ollama should be running as a daemon. Personally, I use Homebrew's services functionality.
 
 **Installation:**
 This project is currently in development.
