@@ -1,6 +1,6 @@
 # LocalChat
 
-A minimalist Terminal User Interface (TUI) for interacting with local LLMs. Built with Python and powered by Textual, Ollama and Sqlite3. This app provides a clean chat experience directly in your terminal.
+A minimalist Terminal User Interface (TUI) for interacting with local LLMs. A Python application utilizing Textual for the UI, with Ollama and SQLite3 handling the backend. This app provides a clean chat experience directly in your terminal.
 
 **Key Features:**
 - Local-First: Your data never leaves your machine. It talks directly to your local Ollama instance.
@@ -13,7 +13,7 @@ A minimalist Terminal User Interface (TUI) for interacting with local LLMs. Buil
 - The multithreaded implementation of model calls and large IO operations means that the UI remains snappy.
 
 **Requirements:**
-Users must have Ollama and Homebrew installed. Ollama should be running as a daemon. Personally, I use Homebrew's services functionality.
+- Users must have Ollama and Homebrew installed. Ollama should be running as a daemon. Personally, I use Homebrew's services functionality.
 
 **Installation:**
-This project is currently in development.
+- This project is currently in development.
