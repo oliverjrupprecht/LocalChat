@@ -14,7 +14,7 @@ A minimalist Terminal User Interface (TUI) for interacting with local LLMs. A Py
 **Key Features:**
 - Local-First: Your data never leaves your machine. It talks directly to your local Ollama instance.
 - Real-time Markdown Rendering: Model responses are and formatted instantly from Markdown. (Most modern models reply in Markdown format) 
-- Persistent Session Logging: Chat sessions are logged in an internal Sqlite database. Sessions can be rebooted if necessary.
+- Persistent Session Logging: Chat sessions are logged in an internal Sqlite database. Sessions can be rebooted if necessary. (not fully implemented)
 - Streaming Responses: No waiting for the full block; get tokens as they are generated for a fluid conversation. (not fully implemented)
 - Automatic Model Management: Loads model on startup and frees it from memory when leaving the application.
 
